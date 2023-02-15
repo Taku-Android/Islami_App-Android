@@ -43,6 +43,7 @@ class SebhaFragment : Fragment() {
 
 
         binding.tasbehName.setOnClickListener {
+            binding.sebhaImg.rotation = binding.sebhaImg.rotation + 5
             count++
             binding.tasbehCount.text = count.toString()
 

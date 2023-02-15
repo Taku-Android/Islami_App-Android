@@ -9,9 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
 
-
-    <color name="arrowBack">#000000</color>
-    <color name="card_sebha">@color/brown</color>
+    <color name="arrowBack">#FFFFFF</color>
+    <color name="card_sebha">@color/navy</color>
 
 
     <color name="brown">#B7935F</color>

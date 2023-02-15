@@ -17,6 +17,7 @@
         app:layout_constraintHeight_percent=".7"
         android:layout_marginBottom="40dp"
         android:elevation="10dp"
+        style="@style/CardViewColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"

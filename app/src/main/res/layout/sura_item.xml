@@ -13,7 +13,7 @@
         android:gravity="center"
         android:padding="8dp"
         android:text="Sura Name"
-        android:textColor="@color/black"
+        style="@style/appBarText"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

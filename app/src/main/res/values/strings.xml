@@ -1,5 +1,25 @@
 <resources>
     <string name="app_name">Islami-App</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+
+
+
+
+    <string name="Dark">Dark Mode</string>
+    <string name="Launch">Launch Second Activty </string>
+    <string name="SecondActivity">Hello blank fragment</string>
+    <string name="Text1">Hello blank fragment</string>
+    <string name="Text2">Hello blank fragment</string>
+
+
+
+
+
+
+
+
+
 </resources>
