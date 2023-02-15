@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -8,52 +8,67 @@
 
     >
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:gravity="center"
-    android:layout_marginTop="40dp"
-    >
+
+    <ImageView
+        android:id="@+id/sebha_head"
+        android:layout_width="wrap_content"
+        android:layout_height="84dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="52dp"
+        style="@style/sebha_head"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
 
 
     <ImageView
         android:id="@+id/sebha_img"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:src="@drawable/sebha_img"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        style="@style/sebha_body"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
 
-</LinearLayout>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/sebha_head"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="@id/sebha_head"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256" />
 
     <TextView
+        android:id="@+id/tsebhaaa"
+        style="@style/appBarText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:text="عدد التسبيحات"
         android:layout_gravity="center"
+        android:layout_marginTop="44dp"
+        android:text="عدد التسبيحات"
         android:textSize="25dp"
-        android:layout_margin="20dp"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sebha_img" />
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/backCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="#C5AB86"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/card_sebha"
         app:cardCornerRadius="20dp"
-        android:layout_gravity="center"
-        >
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tsebhaaa">
 
         <TextView
 
             android:id="@+id/tasbeh_count"
+            style="@style/appBarText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="30"
-            android:textColor="@color/black"
 
             android:textSize="25dp" />
 
@@ -63,28 +78,25 @@
     <androidx.cardview.widget.CardView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/brown"
+        android:layout_marginTop="16dp"
+        app:cardBackgroundColor="@color/card_sebha"
         app:cardCornerRadius="20dp"
-        android:layout_gravity="center"
-        android:layout_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
 
-        >
+        app:layout_constraintTop_toBottomOf="@id/backCount">
 
         <TextView
             android:id="@+id/tasbeh_name"
+            style="@style/appBarText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="سبحان الله"
-            android:textColor="@color/white"
             android:textSize="25dp" />
 
     </androidx.cardview.widget.CardView>
 
 
-
-
-
-
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

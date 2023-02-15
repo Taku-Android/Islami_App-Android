@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Quran.QuranFragment">
 
 
@@ -11,46 +11,39 @@
         android:id="@+id/quran_img"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintHeight_percent=".2"
-        app:layout_constraintWidth_percent=".3"
-        android:src="@drawable/quran_image"
         android:layout_marginTop="70dp"
-        app:layout_constraintStart_toStartOf="parent"
+        android:src="@drawable/quran_image"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintWidth_percent=".3" />
 
     <TextView
         android:id="@+id/chapter_tv"
+        style="@style/appBarText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Chapter name"
-        android:padding="10dp"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:padding="10dp"
+        android:text="Chapter name"
         android:textSize="24dp"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/quran_img"
-        />
-
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/quran_img" />
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/chapter_tv"
-        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:padding="10dp"
-        tools:listitem="@layout/sura_item"
-        />
-
-
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chapter_tv"
+        tools:listitem="@layout/sura_item" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

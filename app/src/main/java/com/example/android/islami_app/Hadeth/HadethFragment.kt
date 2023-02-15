@@ -67,25 +67,4 @@ class HadethFragment : Fragment() {
         return hadethList
     }
 
-
-        /*
-
-        List<String> allHadethContent =  content.trim().split('#');
-
-        for(int i = 0 ; i < allHadethContent.length ; i++) {
-            String singleHadeth = allHadethContent[i].trim();
-            int indexOfFirstLine = singleHadeth.indexOf('\n');
-            String title = singleHadeth.substring(0, indexOfFirstLine);
-            String singleContent = singleHadeth.substring(indexOfFirstLine + 1);
-
-            Hadeth h = new Hadeth(title, singleContent);
-            hadethList.add(h);
-
-
-        }
-
-        allHadethList = hadethList ;
-
-
-         */
 }

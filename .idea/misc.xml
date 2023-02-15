@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/drawable/ic_arrow_back_24.xml" value="0.1595" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/drawable/ic_left.xml" value="0.2175" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/drawable/ic_pause_24.xml" value="0.2175" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/drawable/ic_right.xml" value="0.2175" />
@@ -10,7 +11,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/activity_home.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/activity_main.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/activity_splash.xml" value="0.24635416666666668" />
-        <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/activity_sura_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/activity_sura_detail.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/fragment_hadeth.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/fragment_quran.xml" value="0.24635416666666668" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/android-route/IslamiApp/app/src/main/res/layout/fragment_radio.xml" value="0.23055555555555557" />

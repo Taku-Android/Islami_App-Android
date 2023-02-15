@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.android.islami_app.Finals
 import com.example.android.islami_app.databinding.FragmentQuranBinding
-import com.example.android.islami_app.sura_detail_screen.HadethDetailActivity
+import com.example.android.islami_app.sura_detail_screen.SuraDetailActivity
 
 class QuranFragment : Fragment() {
 
@@ -154,7 +154,7 @@ class QuranFragment : Fragment() {
 
         adapter.onClickListener = object :QuranAdapter.onSuraClickListener{
             override fun onSuraClick(pos: Int) {
-                var intent = Intent(activity , HadethDetailActivity::class.java)
+                var intent = Intent(requireContext() , SuraDetailActivity::class.java)
                 intent.putExtra(Finals.SURA_KEY , pos )
                 startActivity(intent)
 
